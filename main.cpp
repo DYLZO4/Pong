@@ -13,9 +13,9 @@ int main() {
 
   float ball_position_x = centre_x;
   float ball_position_y = centre_y;
-  float gravity = 0.00001;
+  const float gravity = 0.00001;
   float mass = 1.0;
-  float velocity = 0;
+  float velocity_y = 0;
   sf::CircleShape ball;
   ball.setRadius(10);
   ball.setOutlineColor(sf::Color::Red);
@@ -31,11 +31,11 @@ int main() {
     }
     window.clear();
     // ball physics
-    velocity += gravity;
+    velocity_y += gravity;
     if (ball_position_y + 2 * radius >= screen_x) {
-      velocity = -1 * velocity;
+      velocity_y = -1 * velocity_y;
     }
-    ball_position_y += velocity;
+    ball_position_y += velocity_y;
     ball.setPosition({ball_position_x, ball_position_y});
 
     window.draw(ball);
