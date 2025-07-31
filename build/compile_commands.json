@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/dylan/git/Pong/build",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/sfml3_app.dir/main.cpp.o -c /home/dylan/git/Pong/main.cpp",
+  "file": "/home/dylan/git/Pong/main.cpp",
+  "output": "CMakeFiles/sfml3_app.dir/main.cpp.o"
+}
+]

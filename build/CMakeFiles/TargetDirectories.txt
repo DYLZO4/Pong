@@ -1,0 +1,3 @@
+/home/dylan/git/Pong/build/CMakeFiles/sfml3_app.dir
+/home/dylan/git/Pong/build/CMakeFiles/edit_cache.dir
+/home/dylan/git/Pong/build/CMakeFiles/rebuild_cache.dir

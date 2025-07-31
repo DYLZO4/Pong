@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/sfml3_app.dir/link.d CMakeFiles/sfml3_app.dir/main.cpp.o -o sfml3_app  /usr/lib/libsfml-graphics.so.3.0.1 /usr/lib/libsfml-window.so.3.0.1 /usr/lib/libsfml-system.so.3.0.1
